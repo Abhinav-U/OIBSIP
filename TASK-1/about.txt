@@ -1,1 +1,1 @@
-
+The task was about making a landing page by using HTML and CSS, I chose the theme of a travel blogger's website. It is a single page website. 

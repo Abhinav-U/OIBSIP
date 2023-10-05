@@ -1,1 +1,1 @@
-
+This is the Temperature Converter website, I made this website to make the converion of temperature in 3 most prominently used measuring conventions that are Celcius, Fahreinheit and Kelvin. The conversion can be done from any of the input field and the temperature entry can be cleared using a single click.

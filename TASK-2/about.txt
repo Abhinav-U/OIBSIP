@@ -1,1 +1,1 @@
-
+This is the portfolio website which I tried to make with HTML, CSS and with a touch of Vanilla JavaScript and taking some help of swiper JS to add crousal and some animation to a part of website. I made this website a responsive website, it can work very well on mobile, tablets, laptops and desktops.

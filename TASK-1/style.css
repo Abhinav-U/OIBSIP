@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+/* .main{
+    background-color: #F9F7F0;
+} */
+.logo{
+    text-align: right;
+    align-items: right;
+    padding: 30px 30px;
+}
+div#navbar{
+    background-color: #363636;
+}
+li{
+    text-align: right;
+    padding: 30px 30px;
+    list-style-type: none;
+    display: inline-block;    
+}
+a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin-top: auto;
+    transition: 0.3s;
+}
+a:hover::after{
+    width: 100%;    
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+}
+li.logo{
+    /* color: aliceblue; */
+    /* background-color: #363636; */
+    font-weight: 900;
+    font-size: 2.5em;
+    padding-left: 100px;
+    font-family: "Dancing Script", "Spartan", sans-serif;
+    background: linear-gradient(115deg, #2072D5, #20D53C);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+h2{
+    text-align: center;
+    margin: 20px auto;
+    position: relative;
+    font-size: 2.75em; 
+}
+.image-style {
+    width: 85%;
+    margin: 20px auto 5px; 
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.image-style-bottom{
+    border-radius: 5px;
+    width: 85.9%;
+    max-width: 100%;
+    height: auto;
+    margin: 5px auto;
+    padding: 0px 2px ;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.my-image{
+    object-fit: cover;
+    object-position: left;
+    float: left;
+    margin-left: 45px;
+    margin-top: 20px;
+    width: 45%;
+    height: 50%;
+    overflow: hidden;
+}
+.my-intro{
+    width: 40%;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+h3{
+    font-size: 30px;
+    font-family: "Libre Baskerville", sans-serif;
+    font-style: italic;
+    background: linear-gradient(135deg, #2243a8, #ba0fd1 45%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+p{
+    font-style: italic;
+    overflow: hidden;
+    font-family: "Amiri", sans-serif;
+    font-size: 24px;
+    line-height: 1.3em;
+}
+
+/*-------Footer------*/
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background-color: #363636;
+    padding: 0;
+    /* border-top-left-radius: 125px; */
+    font-size: 13px;
+    line-height: 50px;
+}
+.row{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between; 
+}
+.col{
+    flex-basis: 33%;
+    padding: 5px;
+}
+div .col .first{
+    font-weight: 900;
+    font-size: 3em;
+    padding-top: 12px;
+    /* padding-left: 5px; */
+    font-family: "Dancing Script", "Spartan", sans-serif;
+    background: linear-gradient(125deg, #2072D5, #20D53C 15%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+div .col .second{
+    width: fit-content;
+    color: #cecdcd;
+    padding-right: 5px;
+}
+div .col-2 h3{
+    padding-top: 15px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    color: #cecdcd;
+    font-family: sans-serif;
+}
+div .col-2 p{
+    width: fit-content;
+    color: #cecdcd;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-top: 0px;
+}
+div .col-2 h4{
+    color: #cecdcd;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-top: 0px;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+}
+h3.footing{
+    padding-top: 15px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    color: #cecdcd;
+    font-family: sans-serif;
+}
+ul.fut{
+    padding: 0;
+    margin: 0;
+}
+ul li.foot{
+    list-style: none;
+    margin-bottom: 12px; 
+    padding: 0;
+}
+ul li p.footer{  
+    line-height: 0.8em;  
+    width: fit-content;
+    color: #cecdcd;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-top: 0px;
+}
